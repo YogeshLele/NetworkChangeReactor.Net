@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkChangeReactor", "NetworkChangeReactor\NetworkChangeReactor.csproj", "{2FE14AC7-B5D3-4FCE-B30A-49EB13F252A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactorConsoleRunner", "ReactorConsoleRunner\ReactorConsoleRunner.csproj", "{33967F64-742F-45C1-865E-A99C6A703855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReactorService", "ReactorService\ReactorService.csproj", "{AAE1591C-0B4A-40E3-A4CE-E6A55BE000FB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NetworkReactorSetup", "NetworkReactorSetup\NetworkReactorSetup.vdproj", "{495CF1D6-22CE-41F2-87BA-402A10936B93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FE14AC7-B5D3-4FCE-B30A-49EB13F252A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE14AC7-B5D3-4FCE-B30A-49EB13F252A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE14AC7-B5D3-4FCE-B30A-49EB13F252A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE14AC7-B5D3-4FCE-B30A-49EB13F252A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33967F64-742F-45C1-865E-A99C6A703855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33967F64-742F-45C1-865E-A99C6A703855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33967F64-742F-45C1-865E-A99C6A703855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33967F64-742F-45C1-865E-A99C6A703855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33967F64-742F-45C1-865E-A99C6A703855}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AAE1591C-0B4A-40E3-A4CE-E6A55BE000FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE1591C-0B4A-40E3-A4CE-E6A55BE000FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE1591C-0B4A-40E3-A4CE-E6A55BE000FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE1591C-0B4A-40E3-A4CE-E6A55BE000FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{495CF1D6-22CE-41F2-87BA-402A10936B93}.Debug|Any CPU.ActiveCfg = Debug
+		{495CF1D6-22CE-41F2-87BA-402A10936B93}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
