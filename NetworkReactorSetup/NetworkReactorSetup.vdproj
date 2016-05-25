@@ -52,7 +52,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E22E641DB7F4C5FDE5E48FC328050529"
+        "OwnerKey" = "8:_902E5088B07F49CA9B9AE31C366EDB1D"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -70,7 +70,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_902E5088B07F49CA9B9AE31C366EDB1D"
+        "OwnerKey" = "8:_E22E641DB7F4C5FDE5E48FC328050529"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -91,6 +91,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -107,6 +115,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -196,9 +220,14 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821"
+            "AssemblyAsmDisplayName" = "8:log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_015DBA1D5C5DEF934A14FC083F82AC99"
+                    {
+                    "Name" = "8:log4net.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:log4net.dll"
             "TargetName" = "8:"
@@ -276,6 +305,11 @@
             "AssemblyAsmDisplayName" = "8:NetworkChangeReactor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_FF1EDE5FD1C055B89224ACFEEC700F3B"
+                    {
+                    "Name" = "8:NetworkChangeReactor.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:NetworkChangeReactor.dll"
             "TargetName" = "8:"
@@ -351,14 +385,14 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:NetworkReactor"
-        "ProductCode" = "8:{8E71C752-D87A-4D18-A3A8-488DE55DF5C4}"
-        "PackageCode" = "8:{4452EB6C-635A-4D4F-877F-770A4CD67DF7}"
+        "ProductCode" = "8:{0FCE95DB-CCEC-4B8C-8790-53C80DF87662}"
+        "PackageCode" = "8:{79C44F03-1F44-49A7-BB1B-87404A133011}"
         "UpgradeCode" = "8:{0AE3F837-B36F-4562-ACBD-FA89232DD534}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
+        "InstallAllUsers" = "11:TRUE"
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:StackTrace"
         "ARPHELPTELEPHONE" = "8:"
