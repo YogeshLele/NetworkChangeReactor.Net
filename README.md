@@ -6,10 +6,11 @@ E.g. let's say your company's Intranet is accessible only from your office netwo
 This can thus tell the service that you have checked into the office and hence automatically kick start some applications for me e.g MS Outlook with which you start you day
 
 #How to install
-1. Build the installer project. 
-2. Run the setup and install. 
-3. After installing you will need to start the service 'NetworkReactor' manually by first running "services.msc" in run prompt.
-4. Just make sure that the service is run with Local System account.
+1. Run the installer in Dist folder that will install the latest stable version.
+
+    OR
+
+2. Build the code -> Installer and install (if you want to play with the code first)
 
 #Usage
 1. In the installation folder open ReactorService.exe.config file.
