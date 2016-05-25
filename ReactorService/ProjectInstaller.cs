@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration.Install;
 using System.Linq;
+using System.ServiceProcess;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace ReactorService
@@ -16,9 +18,11 @@ namespace ReactorService
             InitializeComponent();
         }
 
-        private void serviceProcessInstaller1_AfterInstall(object sender, InstallEventArgs e)
+        protected override void OnAfterInstall(IDictionary savedState)
         {
-
+            base.OnAfterInstall(savedState);
+            ServiceController sc = new ServiceController(serviceInstaller1.ServiceName);
+            sc.Start();
         }
     }
 }
