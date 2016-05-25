@@ -3,14 +3,14 @@ A windows service that "Reacts" to network connection changes and then performs 
 For the time being, on detecting a network, it only opens the applications specified in the configuration
 
 E.g. let's say your company's Intranet is accessible only from your office network.
-This can thus tell the service that you have checked into the office and hence automatically kick start some applications for me e.g MS Outlook with which you start you day
+This can thus tell the service that you have checked in into the office and hence automatically kick start some applications e.g Email Client; Google Chrome; Vim; with which you start your day
 
 #How to install
 1. Run the installer in Dist folder that will install the latest stable version.
 
-    OR
+  OR
 
-2. Build the code -> Installer and install (if you want to play with the code first)
+2. Build the installer from the code and install (if you want to play with the code first)
 
 #Usage
 1. In the installation folder open ReactorService.exe.config file.
