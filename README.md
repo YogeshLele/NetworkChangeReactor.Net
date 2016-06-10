@@ -18,5 +18,7 @@ This can thus tell the service that you have checked in into the office and henc
 that is going to be reachable from the changed network state.
 3. Change the value of APPS_TO_START to semi-colon separated executables path
 
-
+#Coming Soon...
+1. A simple UI for selecting application which you want to open
+2. System tray Settings icon to configure settings
 
